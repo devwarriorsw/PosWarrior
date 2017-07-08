@@ -1,0 +1,61 @@
+Server
+	- Id
+	- EmployeeId
+	- Name	
+	
+Roles
+	- Id
+	- EmployeeId
+	- Name
+	- Location	
+	- Shift
+	- WorkDays
+	
+Devices
+	- Id
+	- DeviceId
+	- AssignedToId - (EmployeeId)
+	- Name
+	- DeviceType
+	- OsVersion
+	- AppVersion
+	- Status - (Active/Inactive/Disabled)
+		
+Stock
+	- Id
+	- ProductId
+	- Name
+	- Description
+	- Notes	
+	- Category
+	- Image
+	- Price
+	- DateAdded - (Date added to stock)
+	- InStock - (How many there are in stock)
+	- Status - (Available/Unavailable/NotOnSale)
+
+Promos
+	- Id
+	- PromoId
+	- ProductId
+	- Name
+	- Description
+	- Notes	
+	- Category
+	- Image
+	- PromoType - (None/Discount/Sale 2*1..)
+	- ValidThrough - (date range)
+	- Status - (Active/Inactive/Deleted)
+	- DateStarted
+	- DateFinished
+	
+Sales
+	- Id
+	- ProductId	
+	- PromoId
+	- EmployeeId - (Who sold it)
+	- DeviceId - (From which device it was sold)
+	- Date - (Date/time it was sold)
+	- Notes
+	
+	

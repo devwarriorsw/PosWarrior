@@ -33,6 +33,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSClient", "iOSClient\iOSC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBRE", "SubModules\CoreBRE\CoreBRE.csproj", "{ECC476C3-3F6F-4ACB-9BC5-72E8B1D4B8EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93C9EA24-A7B8-4DAD-B9A9-5C229AB86C8E}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Entities.txt = Docs\Entities.txt
+		Docs\Request Pipeline.drx = Docs\Request Pipeline.drx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{C34D7E5E-A263-4DEA-8F4A-D341B836AADA}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\Entities.txt = Docs\Entities.txt
+		Docs\Request Pipeline.drx = Docs\Request Pipeline.drx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -348,5 +360,6 @@ Global
 		{62338CB7-A764-48DF-8D73-EA955CA0190F} = {048F27EC-8E41-49DB-87F5-F1F2683145C9}
 		{843224A4-C06D-4ED3-8BE8-4BADD463FCFA} = {AA0C01A1-52AE-437E-9E5A-76B120A797D9}
 		{ECC476C3-3F6F-4ACB-9BC5-72E8B1D4B8EE} = {923B927D-4B27-4262-ABB5-7FECEFD58DD9}
+		{C34D7E5E-A263-4DEA-8F4A-D341B836AADA} = {93C9EA24-A7B8-4DAD-B9A9-5C229AB86C8E}
 	EndGlobalSection
 EndGlobal
