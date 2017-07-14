@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerCore
+namespace ServerCore.Dal.Entities
 {
-    public class Class1
+    class Employee
     {
     }
 }
