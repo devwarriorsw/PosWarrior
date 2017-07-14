@@ -1,8 +1,18 @@
 Employee
 	- Id
 	- EmployeeId
-	- Name	
-	
+	- Name
+
+EmployeeDetails
+	- Name
+	- MiddleName
+	- LastName
+	- Age
+	- Address
+	- PhoneNumber
+	- Date
+	- Status - (Active/Inactive)
+
 Roles
 	- Id
 	- EmployeeId
@@ -20,7 +30,17 @@ Devices
 	- OsVersion
 	- AppVersion
 	- Status - (Active/Inactive/Disabled)
-		
+	
+Sessions
+	- Id
+	- SessionId
+	- EmployeeId
+	- DeviceId
+	- Shift
+	- DateStarted
+	- DateEnded
+	- Notes	
+
 Stock
 	- Id
 	- ProductId
@@ -57,5 +77,4 @@ Sales
 	- DeviceId - (From which device it was sold)
 	- Date - (Date/time it was sold)
 	- Notes
-	
-	
+
